@@ -29,12 +29,12 @@ with st.sidebar:
     )
     
     st.divider()
-    start_btn = st.button(f"🚀 '{scenario[:4]}' 전체 시뮬레이션 구동", type="primary", use_container_width=True)
+    start_btn = st.button(f"🚀 전체 시뮬레이션 구동", type="primary", use_container_width=True)
 
 # ==========================================
 # 3. 상단 탭(Tabs) 구성: 시뮬레이션 vs 알고리즘 설명
 # ==========================================
-tab1, tab2 = st.tabs(["🎮 실시간 시뮬레이션 관제탑", "🧠 Truth-Guard 알고리즘 명세서"])
+tab1, tab2 = st.tabs(["🎮 실시간 시뮬레이션 관제탑", "🧠 Truth-Guard 알고리즘"])
 
 # ----------------------------------------------------
 # TAB 2: 알고리즘 명세서 (먼저 구성하여 구조화)
