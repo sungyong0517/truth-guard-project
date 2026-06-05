@@ -1,0 +1,14 @@
+{
+  "game_id": "mafia_sim_01",
+  "rules": {
+    "total_players": 5,
+    "environment": "Text-based terminal chat game only. No physical sensations or objects exist."
+  },
+  "timeline_facts": [
+    {"turn": 0, "phase": "Setup", "event": "Roles assigned secretly: A=Mafia, B=Police, C=Doctor, D=Citizen1, E=Citizen2."},
+    {"turn": 1, "phase": "Night", "event": "Mafia A secretly voted to eliminate Citizen D."},
+    {"turn": 1, "phase": "Night", "event": "Police B secretly investigated Agent A and discovered Agent A is MAFIA."},
+    {"turn": 1, "phase": "Night", "event": "Doctor C secretly healed Citizen D. Citizen D survived."},
+    {"turn": 1, "phase": "Day_Start", "event": "Morning arrived. Society announced: No one died last night."}
+  ]
+}
